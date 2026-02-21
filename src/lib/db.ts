@@ -1,6 +1,6 @@
 import { connect } from "mongoose"
 
-const mongo_Url=process.env.MONGODB_URI
+const mongo_Url=process.env.MONGODB_URI!;
 if(!mongo_Url){
     console.log("mongodb url not found")
 }
